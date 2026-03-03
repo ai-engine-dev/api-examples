@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+"""Face Restoration API — Python example.
+
+Docs: https://ai-engine.net/apis/face-restoration
+"""
+
+import requests
+
+HOST = "face-restoration.p.rapidapi.com"
+URL = f"https://{HOST}/submit"
+
+headers = {
+    "x-rapidapi-host": HOST,
+    "x-rapidapi-key": "YOUR_API_KEY",
+}
+
+payload = {"image_url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/main/assets/samples/face.jpg"}
+
+response = requests.post(
+    URL,
+    headers={**headers, "Content-Type": "application/x-www-form-urlencoded"},
+    data=payload,
+)
+
+data = response.json()
+job_id = data["jobId"]
+print(f"Job submitted: {job_id}")
+print("Poll GET /result?jobId={job_id} until status is done")
