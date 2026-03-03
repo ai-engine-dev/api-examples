@@ -5,6 +5,6 @@
 curl -X POST \
   'https://imagegenius-ai.p.rapidapi.com/generate-image' \
   -H 'x-rapidapi-host: imagegenius-ai.p.rapidapi.com' \
-  -H 'x-rapidapi-key: YOUR_API_KEY' \
+  -H "x-rapidapi-key: ${RAPIDAPI_KEY:-YOUR_API_KEY}" \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -d 'prompt=A futuristic city at sunset with flying cars'

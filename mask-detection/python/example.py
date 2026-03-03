@@ -4,6 +4,7 @@
 Docs: https://ai-engine.net/apis/mask-detection
 """
 
+import os
 import requests
 
 HOST = "mask-detection2.p.rapidapi.com"
@@ -11,10 +12,10 @@ URL = f"https://{HOST}/detect-mask"
 
 headers = {
     "x-rapidapi-host": HOST,
-    "x-rapidapi-key": "YOUR_API_KEY",
+    "x-rapidapi-key": os.environ.get("RAPIDAPI_KEY", "YOUR_API_KEY"),
 }
 
-payload = {"url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/main/assets/samples/face.jpg"}
+payload = {"url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/face.jpg"}
 
 response = requests.post(
     URL,

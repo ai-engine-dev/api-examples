@@ -4,6 +4,7 @@
 Docs: https://ai-engine.net/apis/face-restoration
 """
 
+import os
 import requests
 
 HOST = "face-restoration.p.rapidapi.com"
@@ -11,10 +12,10 @@ URL = f"https://{HOST}/submit"
 
 headers = {
     "x-rapidapi-host": HOST,
-    "x-rapidapi-key": "YOUR_API_KEY",
+    "x-rapidapi-key": os.environ.get("RAPIDAPI_KEY", "YOUR_API_KEY"),
 }
 
-payload = {"image_url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/main/assets/samples/face.jpg"}
+payload = {"image_url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/face.jpg"}
 
 response = requests.post(
     URL,

@@ -4,6 +4,7 @@
 Docs: https://ai-engine.net/apis/ppe-detection
 """
 
+import os
 import requests
 
 HOST = "ppe-detection1.p.rapidapi.com"
@@ -11,10 +12,10 @@ URL = f"https://{HOST}/detect-ppe"
 
 headers = {
     "x-rapidapi-host": HOST,
-    "x-rapidapi-key": "YOUR_API_KEY",
+    "x-rapidapi-key": os.environ.get("RAPIDAPI_KEY", "YOUR_API_KEY"),
 }
 
-payload = {"url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/main/assets/samples/construction.jpg"}
+payload = {"url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/construction.jpg"}
 
 response = requests.post(
     URL,

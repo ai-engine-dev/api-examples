@@ -8,7 +8,7 @@ const response = await fetch(URL, {
   method: "POST",
   headers: {
     "x-rapidapi-host": HOST,
-    "x-rapidapi-key": "YOUR_API_KEY",
+    "x-rapidapi-key": process.env.RAPIDAPI_KEY || "YOUR_API_KEY",
     "Content-Type": "application/x-www-form-urlencoded",
   },
   body: new URLSearchParams({ prompt: "A futuristic city at sunset with flying cars" }),
