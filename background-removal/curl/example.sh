@@ -5,6 +5,6 @@
 curl -X POST \
   'https://background-removal-ai.p.rapidapi.com/remove-background' \
   -H 'x-rapidapi-host: background-removal-ai.p.rapidapi.com' \
-  -H 'x-rapidapi-key: YOUR_API_KEY' \
+  -H "x-rapidapi-key: ${RAPIDAPI_KEY:-YOUR_API_KEY}" \
   -H 'Content-Type: application/json' \
-  -d '{"image_url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/main/assets/samples/object.jpg"}'
+  -d '{"image_url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/object.jpg"}'

@@ -4,6 +4,7 @@
 Docs: https://ai-engine.net/apis/emotion-analysis
 """
 
+import os
 import requests
 
 HOST = "emotion-sentiment-personality-analysis.p.rapidapi.com"
@@ -11,7 +12,7 @@ URL = f"https://{HOST}/emotions"
 
 headers = {
     "x-rapidapi-host": HOST,
-    "x-rapidapi-key": "YOUR_API_KEY",
+    "x-rapidapi-key": os.environ.get("RAPIDAPI_KEY", "YOUR_API_KEY"),
 }
 
 payload = {"text": "I am so happy today! The weather is beautiful and I feel great."}

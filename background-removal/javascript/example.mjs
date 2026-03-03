@@ -8,10 +8,10 @@ const response = await fetch(URL, {
   method: "POST",
   headers: {
     "x-rapidapi-host": HOST,
-    "x-rapidapi-key": "YOUR_API_KEY",
+    "x-rapidapi-key": process.env.RAPIDAPI_KEY || "YOUR_API_KEY",
     "Content-Type": "application/json",
   },
-  body: JSON.stringify({ image_url: "https://raw.githubusercontent.com/ai-engine-dev/api-examples/main/assets/samples/object.jpg" }),
+  body: JSON.stringify({ image_url: "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/object.jpg" }),
 });
 
 const data = await response.json();

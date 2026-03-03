@@ -4,6 +4,7 @@
 Docs: https://ai-engine.net/apis/background-removal
 """
 
+import os
 import requests
 
 HOST = "background-removal-ai.p.rapidapi.com"
@@ -11,10 +12,10 @@ URL = f"https://{HOST}/remove-background"
 
 headers = {
     "x-rapidapi-host": HOST,
-    "x-rapidapi-key": "YOUR_API_KEY",
+    "x-rapidapi-key": os.environ.get("RAPIDAPI_KEY", "YOUR_API_KEY"),
 }
 
-payload = {"image_url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/main/assets/samples/object.jpg"}
+payload = {"image_url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/object.jpg"}
 
 response = requests.post(
     URL,
