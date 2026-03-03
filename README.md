@@ -37,7 +37,26 @@
 1. Create a free account on [RapidAPI](https://rapidapi.com/)
 2. Subscribe to any [AI Engine API](https://rapidapi.com/organization/ai-engine) (free tier available)
 3. Copy your API key from the RapidAPI dashboard
-4. Replace `YOUR_API_KEY` in the examples below
+4. Set your API key as an environment variable:
+
+```bash
+export RAPIDAPI_KEY="your_api_key_here"
+```
+
+5. Run any example:
+
+```bash
+# cURL
+bash background-removal/curl/example.sh
+
+# Python
+python3 background-removal/python/example.py
+
+# JavaScript (Node.js 18+)
+node background-removal/javascript/example.mjs
+```
+
+All examples read the `RAPIDAPI_KEY` environment variable automatically. You can also replace `YOUR_API_KEY` directly in the code if you prefer.
 
 ## Structure
 
