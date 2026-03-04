@@ -11,7 +11,7 @@ const response = await fetch(URL, {
     "x-rapidapi-key": process.env.RAPIDAPI_KEY || "YOUR_API_KEY",
     "Content-Type": "application/json",
   },
-  body: JSON.stringify({ image_url: "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/object.jpg" }),
+  body: JSON.stringify({ image_url: "https://openmediadata.s3.eu-west-3.amazonaws.com/face.jpg" }),
 });
 
 const data = await response.json();
