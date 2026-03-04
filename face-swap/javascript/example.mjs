@@ -11,7 +11,7 @@ const response = await fetch(URL, {
     "x-rapidapi-key": process.env.RAPIDAPI_KEY || "YOUR_API_KEY",
     "Content-Type": "application/x-www-form-urlencoded",
   },
-  body: new URLSearchParams({ source_url: "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/face.jpg", target_url: "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/face2.jpg" }),
+  body: new URLSearchParams({ source_url: "https://openmediadata.s3.eu-west-3.amazonaws.com/faceswap_api_demo_source.jpg", target_url: "https://openmediadata.s3.eu-west-3.amazonaws.com/faceswap_api_demo_group.jpg" }),
 });
 
 const data = await response.json();

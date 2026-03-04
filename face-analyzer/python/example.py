@@ -15,7 +15,7 @@ headers = {
     "x-rapidapi-key": os.environ.get("RAPIDAPI_KEY", "YOUR_API_KEY"),
 }
 
-payload = {"url": "https://raw.githubusercontent.com/ai-engine-dev/api-examples/master/assets/samples/face.jpg"}
+payload = {"url": "https://openmediadata.s3.eu-west-3.amazonaws.com/face.jpg"}
 
 response = requests.post(
     URL,
