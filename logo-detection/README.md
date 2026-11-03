@@ -3,9 +3,9 @@
 Detect brand logos in images.
 
 - **Endpoint**: `POST https://logos-detection.p.rapidapi.com/detect-logo`
-- **Response: JSON with body.logos[] containing description, score, and boundingPoly**
+- **Response**: JSON with body.logos[] containing description, score, and boundingPoly
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/logos-detection)
-- [Full Documentation](https://ai-engine.net/apis/logo-detection)
+- [Full Documentation](https://ai-engine.net/apis/logo-detection?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

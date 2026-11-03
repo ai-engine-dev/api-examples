@@ -1,5 +1,5 @@
 #!/bin/bash
-# Emotion & Personality Analysis API — cURL example
+# Emotion & Personality Analysis API: cURL example
 # Docs: https://ai-engine.net/apis/emotion-analysis
 
 curl -X POST \

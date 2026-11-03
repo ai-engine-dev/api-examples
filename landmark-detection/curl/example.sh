@@ -1,5 +1,5 @@
 #!/bin/bash
-# Landmark Detection API — cURL example
+# Landmark Detection API: cURL example
 # Docs: https://ai-engine.net/apis/landmark-detection
 
 curl -X POST \

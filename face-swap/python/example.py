@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Face Swap API — Python example.
+"""Face Swap API: Python example.
 
 Docs: https://ai-engine.net/apis/face-swap
 """

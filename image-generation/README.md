@@ -3,9 +3,9 @@
 Generate images from text prompts using AI.
 
 - **Endpoint**: `POST https://imagegenius-ai.p.rapidapi.com/generate-image`
-- **Response: JSON with body.imageUrl (temporary URL, valid ~1 hour)**
+- **Response**: JSON with body.imageUrl (temporary URL, valid ~1 hour)
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/imagegenius-ai)
-- [Full Documentation](https://ai-engine.net/apis/image-generation)
+- [Full Documentation](https://ai-engine.net/apis/image-generation?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

@@ -1,4 +1,4 @@
-// Logo Detection API — JavaScript (Node.js) example
+// Logo Detection API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/logo-detection
 
 const HOST = "logos-detection.p.rapidapi.com";

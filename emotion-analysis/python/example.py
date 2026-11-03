@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Emotion & Personality Analysis API — Python example.
+"""Emotion & Personality Analysis API: Python example.
 
 Docs: https://ai-engine.net/apis/emotion-analysis
 """

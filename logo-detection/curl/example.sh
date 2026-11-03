@@ -1,5 +1,5 @@
 #!/bin/bash
-# Logo Detection API — cURL example
+# Logo Detection API: cURL example
 # Docs: https://ai-engine.net/apis/logo-detection
 
 curl -X POST \

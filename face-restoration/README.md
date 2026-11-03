@@ -2,10 +2,10 @@
 
 Restore and enhance old, blurry, or low-quality face photos.
 
-- **Endpoint**: `POST https://face-restoration.p.rapidapi.com/submit`
-- **Async API: POST /submit returns jobId, then poll GET /result?jobId=... until done**
+- **Endpoint**: `POST https://face-restoration.p.rapidapi.com/enhance-face`
+- **Response**: JSON with `image_url`, `width`, `height`, `size_bytes`, `faces_detected`
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/face-restoration)
-- [Full Documentation](https://ai-engine.net/apis/face-restoration)
+- [Full Documentation](https://ai-engine.net/apis/face-restoration?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

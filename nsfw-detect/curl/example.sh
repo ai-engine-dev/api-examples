@@ -1,5 +1,5 @@
 #!/bin/bash
-# NSFW Detect API — cURL example
+# NSFW Detect API: cURL example
 # Docs: https://ai-engine.net/apis/nsfw-detect
 
 curl -X POST \

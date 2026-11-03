@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Background Removal API — Python example.
+"""Background Removal API: Python example.
 
 Docs: https://ai-engine.net/apis/background-removal
 """

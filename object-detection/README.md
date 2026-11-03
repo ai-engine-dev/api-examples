@@ -3,9 +3,9 @@
 Detect and locate objects in images with bounding boxes.
 
 - **Endpoint**: `POST https://objects-detection.p.rapidapi.com/objects-detection`
-- **Response: JSON with body.labels[] containing Name, Confidence, and Instances with bounding boxes**
+- **Response**: JSON with body.labels[] containing Name, Confidence, and Instances with bounding boxes
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/objects-detection)
-- [Full Documentation](https://ai-engine.net/apis/object-detection)
+- [Full Documentation](https://ai-engine.net/apis/object-detection?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

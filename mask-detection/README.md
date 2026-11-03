@@ -3,9 +3,9 @@
 Detect whether people are wearing face masks.
 
 - **Endpoint**: `POST https://mask-detection2.p.rapidapi.com/detect-mask`
-- **Response: JSON with body.Persons[] and body.Summary (mask/no-mask counts)**
+- **Response**: JSON with body.Persons[] and body.Summary (mask/no-mask counts)
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/mask-detection2)
-- [Full Documentation](https://ai-engine.net/apis/mask-detection)
+- [Full Documentation](https://ai-engine.net/apis/mask-detection?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Mask Detection API — cURL example
+# Mask Detection API: cURL example
 # Docs: https://ai-engine.net/apis/mask-detection
 
 curl -X POST \

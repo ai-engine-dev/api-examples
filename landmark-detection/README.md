@@ -3,9 +3,9 @@
 Identify famous landmarks in photos with GPS coordinates.
 
 - **Endpoint**: `POST https://landmarks-detection.p.rapidapi.com/detect-landmarks`
-- **Response: JSON with body.landmarks[] containing description, score, and GPS locations**
+- **Response**: JSON with body.landmarks[] containing description, score, and GPS locations
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/landmarks-detection)
-- [Full Documentation](https://ai-engine.net/apis/landmark-detection)
+- [Full Documentation](https://ai-engine.net/apis/landmark-detection?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

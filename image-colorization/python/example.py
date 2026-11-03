@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Image Colorization API — Python example.
+"""Image Colorization API: Python example.
 
 Docs: https://ai-engine.net/apis/image-colorization
 """
@@ -24,4 +24,4 @@ response = requests.post(
 )
 
 data = response.json()
-print(f"Colorized image: {data['body']['imageUrl']}")
+print(f"Colorized image: {data['image_url']}")

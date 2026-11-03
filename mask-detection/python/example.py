@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mask Detection API — Python example.
+"""Mask Detection API: Python example.
 
 Docs: https://ai-engine.net/apis/mask-detection
 """

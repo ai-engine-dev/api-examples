@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""PPE Detection API — Python example.
+"""PPE Detection API: Python example.
 
 Docs: https://ai-engine.net/apis/ppe-detection
 """
@@ -24,5 +24,7 @@ response = requests.post(
 )
 
 data = response.json()
+parts = ["HeadCover", "FaceCover", "LeftHandCover", "RightHandCover"]
 for person in data["body"]["Persons"]:
-    print(f"  Head: {person['HeadCover']}, Face: {person['FaceCover']}")
+    covered = [part for part in parts if person[part]]
+    print(f"Person {person['Id']}: {', '.join(covered) or 'no equipment'}")

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Label Image API — cURL example
+# Label Image API: cURL example
 # Docs: https://ai-engine.net/apis/label-image
 
 curl -X POST \

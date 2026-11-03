@@ -1,4 +1,4 @@
-// NSFW Detect API — JavaScript (Node.js) example
+// NSFW Detect API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/nsfw-detect
 
 const HOST = "nsfw-detect3.p.rapidapi.com";

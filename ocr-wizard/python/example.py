@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""OCR Wizard API — Python example.
+"""OCR Wizard API: Python example.
 
 Docs: https://ai-engine.net/apis/ocr-wizard
 """

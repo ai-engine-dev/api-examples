@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""NSFW Detect API — Python example.
+"""NSFW Detect API: Python example.
 
 Docs: https://ai-engine.net/apis/nsfw-detect
 """

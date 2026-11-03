@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Photo to Anime API — Python example.
+"""Photo to Anime API: Python example.
 
 Docs: https://ai-engine.net/apis/photo-to-anime
 """

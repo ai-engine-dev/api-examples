@@ -1,5 +1,5 @@
 #!/bin/bash
-# Face Swap API — cURL example
+# Face Swap API: cURL example
 # Docs: https://ai-engine.net/apis/face-swap
 
 curl -X POST \

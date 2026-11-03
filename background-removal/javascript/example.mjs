@@ -1,4 +1,4 @@
-// Background Removal API — JavaScript (Node.js) example
+// Background Removal API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/background-removal
 
 const HOST = "background-removal-ai.p.rapidapi.com";

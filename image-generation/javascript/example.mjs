@@ -1,4 +1,4 @@
-// Image Generation API — JavaScript (Node.js) example
+// Image Generation API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/image-generation
 
 const HOST = "imagegenius-ai.p.rapidapi.com";

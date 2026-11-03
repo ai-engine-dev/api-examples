@@ -3,9 +3,9 @@
 Extract text from images with support for 200+ languages and handwriting.
 
 - **Endpoint**: `POST https://ocr-wizard.p.rapidapi.com/ocr`
-- **Response: JSON with body.fullText, body.detectedLanguage, body.annotations[]**
+- **Response**: JSON with body.fullText, body.detectedLanguage, body.annotations[]
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/ocr-wizard)
-- [Full Documentation](https://ai-engine.net/apis/ocr-wizard)
+- [Full Documentation](https://ai-engine.net/apis/ocr-wizard?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

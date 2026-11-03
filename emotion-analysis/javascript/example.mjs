@@ -1,4 +1,4 @@
-// Emotion & Personality Analysis API — JavaScript (Node.js) example
+// Emotion & Personality Analysis API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/emotion-analysis
 
 const HOST = "emotion-sentiment-personality-analysis.p.rapidapi.com";

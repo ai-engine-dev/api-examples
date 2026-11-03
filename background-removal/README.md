@@ -3,9 +3,9 @@
 Remove backgrounds from images and get a clean transparent PNG.
 
 - **Endpoint**: `POST https://background-removal-ai.p.rapidapi.com/remove-background`
-- **Response: JSON with image_url (CDN link), width, height, size_bytes**
+- **Response**: JSON with image_url (CDN link), width, height, size_bytes
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/background-removal-ai)
-- [Full Documentation](https://ai-engine.net/apis/background-removal)
+- [Full Documentation](https://ai-engine.net/apis/background-removal?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

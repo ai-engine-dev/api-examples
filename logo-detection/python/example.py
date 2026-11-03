@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Logo Detection API — Python example.
+"""Logo Detection API: Python example.
 
 Docs: https://ai-engine.net/apis/logo-detection
 """

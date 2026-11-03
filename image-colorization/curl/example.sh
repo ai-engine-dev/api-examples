@@ -1,5 +1,5 @@
 #!/bin/bash
-# Image Colorization API — cURL example
+# Image Colorization API: cURL example
 # Docs: https://ai-engine.net/apis/image-colorization
 
 curl -X POST \

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Face Analyzer API — cURL example
+# Face Analyzer API: cURL example
 # Docs: https://ai-engine.net/apis/face-analyzer
 
 curl -X POST \

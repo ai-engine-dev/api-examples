@@ -1,4 +1,4 @@
-// Landmark Detection API — JavaScript (Node.js) example
+// Landmark Detection API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/landmark-detection
 
 const HOST = "landmarks-detection.p.rapidapi.com";
@@ -17,5 +17,5 @@ const response = await fetch(URL, {
 const data = await response.json();
 data.body.landmarks.forEach(lm => {
   const loc = lm.locations[0] || {};
-  console.log(`  ${lm.description} (${lm.score.toFixed(2)}) — ${loc.latitude}, ${loc.longitude}`);
+  console.log(`  ${lm.description} (${lm.score.toFixed(2)}) at ${loc.latitude}, ${loc.longitude}`);
 });

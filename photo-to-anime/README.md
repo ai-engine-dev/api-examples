@@ -3,9 +3,9 @@
 Transform photos into anime, cartoon, or sketch styles.
 
 - **Endpoint**: `POST https://phototoanime1.p.rapidapi.com/cartoonize`
-- **Response: JSON with image_url (CDN link), width, height, size_bytes**
+- **Response**: JSON with image_url (CDN link), width, height, size_bytes
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/phototoanime1)
-- [Full Documentation](https://ai-engine.net/apis/photo-to-anime)
+- [Full Documentation](https://ai-engine.net/apis/photo-to-anime?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

@@ -3,9 +3,9 @@
 Colorize black-and-white photos with AI.
 
 - **Endpoint**: `POST https://photocolorizer-ai.p.rapidapi.com/colorize-photo`
-- **Response: JSON with body.imageUrl (temporary URL, valid ~1 hour)**
+- **Response**: JSON with image_url (CDN link), width, height, size_bytes
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/photocolorizer-ai)
-- [Full Documentation](https://ai-engine.net/apis/image-colorization)
+- [Full Documentation](https://ai-engine.net/apis/image-colorization?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

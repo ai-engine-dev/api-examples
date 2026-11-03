@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Object Detection API — Python example.
+"""Object Detection API: Python example.
 
 Docs: https://ai-engine.net/apis/object-detection
 """

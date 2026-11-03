@@ -3,9 +3,9 @@
 Auto-tag images with descriptive labels and confidence scores.
 
 - **Endpoint**: `POST https://label-image.p.rapidapi.com/detect-label`
-- **Response: JSON with body.labels[] containing description and score (0-1)**
+- **Response**: JSON with body.labels[] containing description and score (0-1)
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/label-image)
-- [Full Documentation](https://ai-engine.net/apis/label-image)
+- [Full Documentation](https://ai-engine.net/apis/label-image?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

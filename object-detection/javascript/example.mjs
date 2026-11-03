@@ -1,4 +1,4 @@
-// Object Detection API — JavaScript (Node.js) example
+// Object Detection API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/object-detection
 
 const HOST = "objects-detection.p.rapidapi.com";

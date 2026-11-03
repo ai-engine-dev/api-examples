@@ -1,4 +1,4 @@
-// Photo to Anime API — JavaScript (Node.js) example
+// Photo to Anime API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/photo-to-anime
 
 const HOST = "phototoanime1.p.rapidapi.com";

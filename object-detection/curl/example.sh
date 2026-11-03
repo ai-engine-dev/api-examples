@@ -1,5 +1,5 @@
 #!/bin/bash
-# Object Detection API — cURL example
+# Object Detection API: cURL example
 # Docs: https://ai-engine.net/apis/object-detection
 
 curl -X POST \

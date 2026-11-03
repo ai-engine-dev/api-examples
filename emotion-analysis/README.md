@@ -5,7 +5,7 @@ Detect emotions and personality traits from text.
 - **Endpoint**: `POST https://emotion-sentiment-personality-analysis.p.rapidapi.com/emotions`
 - **Response**: JSON with `emotions[]` containing `label` and `score` (0-1)
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/emotion-sentiment-personality-analysis)
-- [Full Documentation](https://ai-engine.net/apis/emotion-analysis)
+- [Full Documentation](https://ai-engine.net/apis/emotion-analysis?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

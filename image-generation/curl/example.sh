@@ -1,5 +1,5 @@
 #!/bin/bash
-# Image Generation API — cURL example
+# Image Generation API: cURL example
 # Docs: https://ai-engine.net/apis/image-generation
 
 curl -X POST \

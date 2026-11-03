@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Landmark Detection API — Python example.
+"""Landmark Detection API: Python example.
 
 Docs: https://ai-engine.net/apis/landmark-detection
 """
@@ -26,4 +26,4 @@ response = requests.post(
 data = response.json()
 for lm in data["body"]["landmarks"]:
     loc = lm["locations"][0] if lm["locations"] else {}
-    print(f"  {lm['description']} ({lm['score']:.2f}) — {loc.get('latitude', '')}, {loc.get('longitude', '')}")
+    print(f"  {lm['description']} ({lm['score']:.2f}) at {loc.get('latitude', '')}, {loc.get('longitude', '')}")

@@ -1,4 +1,4 @@
-// OCR Wizard API — JavaScript (Node.js) example
+// OCR Wizard API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/ocr-wizard
 
 const HOST = "ocr-wizard.p.rapidapi.com";

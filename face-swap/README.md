@@ -3,9 +3,9 @@
 Swap faces between two images using AI.
 
 - **Endpoint**: `POST https://deepfake-face-swap-ai.p.rapidapi.com/swap-face`
-- **Response: JSON with image_url (CDN link), width, height, size_bytes**
+- **Response**: JSON with image_url (CDN link), width, height, size_bytes
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/deepfake-face-swap-ai)
-- [Full Documentation](https://ai-engine.net/apis/face-swap)
+- [Full Documentation](https://ai-engine.net/apis/face-swap?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

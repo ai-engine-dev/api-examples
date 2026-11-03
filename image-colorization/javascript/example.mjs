@@ -1,4 +1,4 @@
-// Image Colorization API — JavaScript (Node.js) example
+// Image Colorization API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/image-colorization
 
 const HOST = "photocolorizer-ai.p.rapidapi.com";
@@ -15,4 +15,4 @@ const response = await fetch(URL, {
 });
 
 const data = await response.json();
-console.log("Colorized image:", data.body.imageUrl);
+console.log("Colorized image:", data.image_url);

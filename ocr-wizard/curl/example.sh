@@ -1,5 +1,5 @@
 #!/bin/bash
-# OCR Wizard API — cURL example
+# OCR Wizard API: cURL example
 # Docs: https://ai-engine.net/apis/ocr-wizard
 
 curl -X POST \

@@ -5,7 +5,7 @@ Detect faces and analyze age, gender, emotions, and facial features.
 - **Endpoint**: `POST https://faceanalyzer-ai.p.rapidapi.com/faceanalysis`
 - **Response**: JSON with `body.faces[]` containing `boundingBox`, `facialFeatures` (AgeRange, Gender, Smile, Emotions), and `landmarks`
 - [RapidAPI Page](https://rapidapi.com/ai-engine-ai-engine-default/api/faceanalyzer-ai)
-- [Full Documentation](https://ai-engine.net/apis/face-analyzer)
+- [Full Documentation](https://ai-engine.net/apis/face-analyzer?utm_source=github&utm_medium=referral&utm_campaign=api-examples)
 
 ## Examples
 

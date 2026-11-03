@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Face Analyzer API — Python example.
+"""Face Analyzer API: Python example.
 
 Docs: https://ai-engine.net/apis/face-analyzer
 """

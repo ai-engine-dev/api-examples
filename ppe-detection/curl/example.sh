@@ -1,5 +1,5 @@
 #!/bin/bash
-# PPE Detection API — cURL example
+# PPE Detection API: cURL example
 # Docs: https://ai-engine.net/apis/ppe-detection
 
 curl -X POST \

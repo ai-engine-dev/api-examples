@@ -1,4 +1,4 @@
-// Face Swap API — JavaScript (Node.js) example
+// Face Swap API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/face-swap
 
 const HOST = "deepfake-face-swap-ai.p.rapidapi.com";

@@ -1,4 +1,4 @@
-// Face Analyzer API — JavaScript (Node.js) example
+// Face Analyzer API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/face-analyzer
 
 const HOST = "faceanalyzer-ai.p.rapidapi.com";

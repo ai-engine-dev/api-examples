@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Label Image API — Python example.
+"""Label Image API: Python example.
 
 Docs: https://ai-engine.net/apis/label-image
 """

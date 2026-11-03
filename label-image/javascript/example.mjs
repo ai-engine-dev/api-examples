@@ -1,4 +1,4 @@
-// Label Image API — JavaScript (Node.js) example
+// Label Image API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/label-image
 
 const HOST = "label-image.p.rapidapi.com";

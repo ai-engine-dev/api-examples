@@ -1,5 +1,5 @@
 #!/bin/bash
-# Photo to Anime API — cURL example
+# Photo to Anime API: cURL example
 # Docs: https://ai-engine.net/apis/photo-to-anime
 
 curl -X POST \

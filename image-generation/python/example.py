@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Image Generation API — Python example.
+"""Image Generation API: Python example.
 
 Docs: https://ai-engine.net/apis/image-generation
 """

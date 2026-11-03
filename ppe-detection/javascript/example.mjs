@@ -1,4 +1,4 @@
-// PPE Detection API — JavaScript (Node.js) example
+// PPE Detection API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/ppe-detection
 
 const HOST = "ppe-detection1.p.rapidapi.com";
@@ -15,4 +15,8 @@ const response = await fetch(URL, {
 });
 
 const data = await response.json();
-data.body.Persons.forEach(p => console.log(`  Head: ${JSON.stringify(p.HeadCover)}, Face: ${JSON.stringify(p.FaceCover)}`));
+const parts = ["HeadCover", "FaceCover", "LeftHandCover", "RightHandCover"];
+for (const person of data.body.Persons) {
+  const covered = parts.filter((part) => person[part]);
+  console.log(`Person ${person.Id}: ${covered.join(", ") || "no equipment"}`);
+}

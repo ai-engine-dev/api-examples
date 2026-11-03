@@ -1,5 +1,5 @@
 #!/bin/bash
-# Background Removal API — cURL example
+# Background Removal API: cURL example
 # Docs: https://ai-engine.net/apis/background-removal
 
 curl -X POST \

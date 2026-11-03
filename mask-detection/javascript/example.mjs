@@ -1,4 +1,4 @@
-// Mask Detection API — JavaScript (Node.js) example
+// Mask Detection API: JavaScript (Node.js) example
 // Docs: https://ai-engine.net/apis/mask-detection
 
 const HOST = "mask-detection2.p.rapidapi.com";
