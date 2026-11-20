@@ -1,0 +1,22 @@
+[project]
+name = "ai-engine-mcp"
+version = "0.1.0"
+description = "MCP server for AI Engine image APIs: background removal, OCR and NSFW detection"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["mcp>=2.3", "requests>=2.31"]
+
+[project.urls]
+Homepage = "https://ai-engine.net"
+Source = "https://github.com/ai-engine-dev/api-examples/tree/main/mcp-server"
+
+[project.scripts]
+ai-engine-mcp = "ai_engine_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai_engine_mcp"]

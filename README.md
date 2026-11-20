@@ -19,6 +19,10 @@ python3 background-removal/python/example.py
 
 Get a key by subscribing to any API below on RapidAPI (every API has a free plan). The examples read `RAPIDAPI_KEY` from your environment, so your key never ends up in the code.
 
+## Use with AI assistants (MCP)
+
+The [mcp-server](mcp-server/) folder is an MCP server for Claude Code, Claude Desktop and Cursor. It lets your assistant remove backgrounds, read text from images and PDFs, and check images for unsafe content. Setup takes one command, see [mcp-server/README.md](mcp-server/README.md).
+
 ## APIs
 
 
