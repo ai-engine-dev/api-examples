@@ -35,7 +35,7 @@ def _is_url(value):
 
 
 def _local(path):
-    p = Path(path).expanduser()
+    p = Path(path).expanduser().resolve()
     if not p.is_file():
         raise ToolError(f"File not found: {p}")
     return p
@@ -62,7 +62,7 @@ def _post(host, endpoint, image, url_field, file_field="image", extra=None, as_j
 
 def _output_path(image, output_path, suffix):
     if output_path:
-        return Path(output_path).expanduser()
+        return Path(output_path).expanduser().resolve()
     stem = Path(image.split("?")[0]).stem or "image"
     base = Path.cwd() if _is_url(image) else _local(image).parent
     return base / f"{stem}_{suffix}.png"
