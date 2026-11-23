@@ -92,6 +92,8 @@ Background removed: saved as shirt_nobg.png (900x1200 transparent PNG) next to t
 Safety check: shirt.jpg came back safe to publish, with no nudity, violence or other unsafe content flagged.
 ```
 
+A full walkthrough with a real session in Claude Code: [Background Removal MCP Server for Claude and Cursor](https://ai-engine.net/blog/background-removal-mcp-server?utm_source=github&utm_medium=referral&utm_campaign=mcp-server).
+
 ## Keep your key private
 
 - The server reads the key from the `RAPIDAPI_KEY` environment variable and sends it only to RapidAPI. It is never written to disk or returned to the assistant.
